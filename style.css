@@ -288,3 +288,87 @@ p{
     border-radius: 0;
     border: none;
 }
+
+/* COntact */
+.contact{
+    background: url(images/cont.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height: 3.8rem;
+    width: 3.8rem;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding-top: 0.9rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* Contact */
+.contact input{
+    height: 2.8rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 0.7rem;
+    padding: 0.7rem;
+}
+.contact textarea{
+    height: 6.2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 0.7rem;
+    padding: 0.7rem;
+}
+.cbtn{
+    height: 3.2rem;
+    width: 65%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 3.2rem;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+.cbtn:hover{
+    background: rgb(185, 185, 185);
+}
+/* Footer */
+.footer{
+    background-color: white;
+}
+.s1{
+    height: 2.8rem;
+    width: 2.8rem;
+    background-color: transparent;
+    border: 0.1rem solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.6rem;
+    margin-left: 0.7rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border: none;
+}
+.footer p{
+    color: rgb(13, 172, 13);
+}
